@@ -6,6 +6,7 @@ import { MdDashboard } from 'react-icons/md'
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
 import { STYLES } from '@/constants/styles'
+import { PAGINATION_SEARCH_PARAMS } from '@/enum'
 
 const MainLayoutWrapper = ({ children }: PropsWithChildren) => {
   // States-----------------------------------------
@@ -13,7 +14,12 @@ const MainLayoutWrapper = ({ children }: PropsWithChildren) => {
 
   const sidebarItems = [
     { name: 'Dashboard', icon: <MdDashboard className="text-xl" />, href: "/" },
-    { name: 'Refund Orders', icon: <FaReply className="text-xl" />, href: "/refund-orders" },
+    {
+      name: 'Refund Orders', icon: <FaReply className="text-xl" />, href: `/refund-orders?${new URLSearchParams({
+        [PAGINATION_SEARCH_PARAMS.PAGE]: "1",
+        [PAGINATION_SEARCH_PARAMS.PAGE_SIZE]: "10",
+      }).toString()}`
+    },
     { name: 'Clients', icon: <FaUsers className="text-xl" />, href: "/clients" },
     { name: 'Stores', icon: <FaShoppingCart className="text-xl" />, href: "/stores" },
   ]
@@ -35,7 +41,7 @@ const MainLayoutWrapper = ({ children }: PropsWithChildren) => {
 
       {/* Sidebar */}
       <aside
-        className={cn("md:flex flex-col w-[220px] fixed bg-gray-900 md:sticky top-0 min-h-[100dvh] max-h-[100dvh] transition-transform duration-300 z-50", isSidebarOpen ? 'translate-x-0' : '-translate-x-full', "md:translate-x-0")}
+        className={cn("md:flex flex-col w-[220px] min-w-[220px] fixed bg-gray-900 md:sticky top-0 min-h-[100dvh] max-h-[100dvh] transition-transform duration-300 z-50", isSidebarOpen ? 'translate-x-0' : '-translate-x-full', "md:translate-x-0")}
       >
         <div className="p-4 text-white font-bold text-lg">Admin Panel</div>
         <nav className="flex-1 overflow-y-auto">

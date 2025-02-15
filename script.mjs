@@ -46,7 +46,7 @@ function generateRandomData(count) {
       store_name: store.name,
       store_logo: store.logo,
       store_url: store.url,
-      amount: amount,
+      amount: Math.trunc(amount),
       active: Math.random() < 0.5,
       decision: null,
       items: itemsArr,

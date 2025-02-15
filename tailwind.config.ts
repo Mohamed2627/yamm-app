@@ -13,6 +13,15 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      maxWidth: {
+        "custom-md": "calc(93vw - 220px)",
+      },
+      width: {
+        "custom-md": "calc(93vw - 220px)",
+      },
+      maxHeight: {
+        "custom-max": "calc(100vh - 220px)",
+      }
     },
   },
   plugins: [],

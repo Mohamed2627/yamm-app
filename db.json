@@ -2,12 +2,36 @@
   "refundOrders": [
     {
       "id": "RO-0001",
-      "reason": "Product not as described",
+      "reason": "Incorrect size big",
       "store_name": "BookNook",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "ITEM-012",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "RO-0002",
+      "reason": "Damaged product",
+      "store_name": "TechWorld",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
         {
@@ -19,36 +43,12 @@
       ]
     },
     {
-      "id": "RO-0002",
-      "reason": "Damaged product",
-      "store_name": "GadgetStore",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Table Lamp",
-          "id": "ITEM-005",
-          "price": 34.38,
-          "quantity": 1
-        },
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
       "id": "RO-0003",
-      "reason": "Late delivery",
+      "reason": "Wrong color received",
       "store_name": "BookNook",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": false,
       "decision": null,
       "items": [
@@ -68,12 +68,12 @@
     },
     {
       "id": "RO-0004",
-      "reason": "Wrong item received",
-      "store_name": "TechWorld",
+      "reason": "Late delivery",
+      "store_name": "GadgetStore",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
         {
@@ -86,25 +86,25 @@
     },
     {
       "id": "RO-0005",
-      "reason": "Damaged product",
-      "store_name": "FootwearHub",
+      "reason": "Product not as described",
+      "store_name": "HomeEssentials",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
         {
-          "name": "Bluetooth Speaker",
-          "id": "ITEM-012",
-          "price": 199.99,
-          "quantity": 3
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
         },
         {
-          "name": "Leather Wallet",
-          "id": "ITEM-010",
-          "price": 45,
-          "quantity": 2
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
         }
       ]
     },
@@ -114,86 +114,26 @@
       "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
+      "amount": 1936,
+      "active": true,
       "decision": null,
       "items": [
         {
-          "name": "Bluetooth Speaker",
-          "id": "ITEM-012",
-          "price": 199.99,
-          "quantity": 3
-        },
-        {
-          "name": "Leather Wallet",
-          "id": "ITEM-010",
-          "price": 45,
-          "quantity": 2
+          "name": "Hardcover Novel",
+          "id": "ITEM-003",
+          "price": 22.5,
+          "quantity": 5
         }
       ]
     },
     {
       "id": "RO-0007",
-      "reason": "Defective item",
-      "store_name": "TechWorld",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0008",
-      "reason": "Incorrect size",
-      "store_name": "BookNook",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
-        }
-      ]
-    },
-    {
-      "id": "RO-0009",
-      "reason": "Incorrect size",
+      "reason": "Late delivery",
       "store_name": "HomeEssentials",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0010",
-      "reason": "Incorrect size",
-      "store_name": "FashionFix",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
       "decision": null,
       "items": [
         {
@@ -211,66 +151,12 @@
       ]
     },
     {
-      "id": "RO-0011",
-      "reason": "Incorrect size",
-      "store_name": "TechWorld",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
-        }
-      ]
-    },
-    {
-      "id": "RO-0012",
-      "reason": "Wrong item received",
-      "store_name": "HomeEssentials",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0013",
+      "id": "RO-0008",
       "reason": "Damaged product",
       "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
-        }
-      ]
-    },
-    {
-      "id": "RO-0014",
-      "reason": "Product not as described",
-      "store_name": "TechWorld",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": false,
       "decision": null,
       "items": [
@@ -295,12 +181,144 @@
       ]
     },
     {
-      "id": "RO-0015",
+      "id": "RO-0009",
+      "reason": "Wrong item received",
+      "store_name": "BookNook",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "ITEM-012",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "RO-0010",
+      "reason": "Defective item",
+      "store_name": "FootwearHub",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0011",
+      "reason": "Defective item",
+      "store_name": "FootwearHub",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0012",
       "reason": "Product not as described",
       "store_name": "GadgetStore",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Hardcover Novel",
+          "id": "ITEM-003",
+          "price": 22.5,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "RO-0013",
+      "reason": "Product not as described",
+      "store_name": "BookNook",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "ITEM-012",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "RO-0014",
+      "reason": "Wrong color received",
+      "store_name": "BookNook",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "ITEM-012",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "RO-0015",
+      "reason": "Defective item",
+      "store_name": "TechWorld",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
       "active": false,
       "decision": null,
       "items": [
@@ -326,20 +344,14 @@
     },
     {
       "id": "RO-0016",
-      "reason": "Damaged product",
-      "store_name": "HomeEssentials",
+      "reason": "Wrong item received",
+      "store_name": "GadgetStore",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": false,
       "decision": null,
       "items": [
-        {
-          "name": "Table Lamp",
-          "id": "ITEM-005",
-          "price": 34.38,
-          "quantity": 1
-        },
         {
           "name": "Running Shoes",
           "id": "ITEM-008",
@@ -350,32 +362,38 @@
     },
     {
       "id": "RO-0017",
-      "reason": "Product not as described",
-      "store_name": "BookNook",
+      "reason": "Wrong color received",
+      "store_name": "FashionFix",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": false,
       "decision": null,
       "items": [
         {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
+          "name": "Hardcover Novel",
+          "id": "ITEM-003",
+          "price": 22.5,
+          "quantity": 5
         }
       ]
     },
     {
       "id": "RO-0018",
-      "reason": "Late delivery",
-      "store_name": "BookNook",
+      "reason": "Wrong item received",
+      "store_name": "FashionFix",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
+      "amount": 1936,
+      "active": true,
       "decision": null,
       "items": [
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        },
         {
           "name": "Table Lamp",
           "id": "ITEM-005",
@@ -392,11 +410,11 @@
     },
     {
       "id": "RO-0019",
-      "reason": "Damaged product",
-      "store_name": "GadgetStore",
+      "reason": "Defective item",
+      "store_name": "BookNook",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
@@ -411,10 +429,34 @@
     {
       "id": "RO-0020",
       "reason": "Defective item",
-      "store_name": "TechWorld",
+      "store_name": "BookNook",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0021",
+      "reason": "Product not as described",
+      "store_name": "BookNook",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
@@ -433,13 +475,49 @@
       ]
     },
     {
-      "id": "RO-0021",
-      "reason": "Damaged product",
-      "store_name": "FootwearHub",
+      "id": "RO-0022",
+      "reason": "Late delivery",
+      "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0023",
+      "reason": "Wrong item received",
+      "store_name": "BookNook",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Hardcover Novel",
+          "id": "ITEM-003",
+          "price": 22.5,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "RO-0024",
+      "reason": "Wrong item received",
+      "store_name": "BookNook",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
         {
@@ -463,13 +541,13 @@
       ]
     },
     {
-      "id": "RO-0022",
-      "reason": "Wrong item received",
+      "id": "RO-0025",
+      "reason": "Damaged product",
       "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
+      "amount": 1936,
+      "active": true,
       "decision": null,
       "items": [
         {
@@ -487,75 +565,15 @@
       ]
     },
     {
-      "id": "RO-0023",
-      "reason": "Incorrect size",
-      "store_name": "GadgetStore",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
-        }
-      ]
-    },
-    {
-      "id": "RO-0024",
-      "reason": "Wrong color received",
-      "store_name": "HomeEssentials",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
-        }
-      ]
-    },
-    {
-      "id": "RO-0025",
-      "reason": "Product not as described",
-      "store_name": "FootwearHub",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
       "id": "RO-0026",
-      "reason": "Damaged product",
-      "store_name": "FootwearHub",
+      "reason": "Incorrect size",
+      "store_name": "BookNook",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
-        {
-          "name": "Leather Wallet",
-          "id": "ITEM-010",
-          "price": 45,
-          "quantity": 2
-        },
         {
           "name": "Table Lamp",
           "id": "ITEM-005",
@@ -572,12 +590,114 @@
     },
     {
       "id": "RO-0027",
-      "reason": "Incorrect size",
+      "reason": "Damaged product",
+      "store_name": "FootwearHub",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Hardcover Novel",
+          "id": "ITEM-003",
+          "price": 22.5,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "RO-0028",
+      "reason": "Wrong color received",
       "store_name": "FashionFix",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Hardcover Novel",
+          "id": "ITEM-003",
+          "price": 22.5,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "RO-0029",
+      "reason": "Defective item",
+      "store_name": "HomeEssentials",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0030",
+      "reason": "Defective item",
+      "store_name": "GadgetStore",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
       "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0031",
+      "reason": "Late delivery",
+      "store_name": "GadgetStore",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0032",
+      "reason": "Wrong item received",
+      "store_name": "HomeEssentials",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": true,
       "decision": null,
       "items": [
         {
@@ -595,138 +715,12 @@
       ]
     },
     {
-      "id": "RO-0028",
-      "reason": "Wrong item received",
-      "store_name": "GadgetStore",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0029",
-      "reason": "Late delivery",
-      "store_name": "BookNook",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0030",
+      "id": "RO-0033",
       "reason": "Defective item",
-      "store_name": "HomeEssentials",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Leather Wallet",
-          "id": "ITEM-010",
-          "price": 45,
-          "quantity": 2
-        },
-        {
-          "name": "Table Lamp",
-          "id": "ITEM-005",
-          "price": 34.38,
-          "quantity": 1
-        },
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0031",
-      "reason": "Incorrect size",
-      "store_name": "TechWorld",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Leather Wallet",
-          "id": "ITEM-010",
-          "price": 45,
-          "quantity": 2
-        },
-        {
-          "name": "Table Lamp",
-          "id": "ITEM-005",
-          "price": 34.38,
-          "quantity": 1
-        },
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0032",
-      "reason": "Product not as described",
       "store_name": "FootwearHub",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Leather Wallet",
-          "id": "ITEM-010",
-          "price": 45,
-          "quantity": 2
-        },
-        {
-          "name": "Table Lamp",
-          "id": "ITEM-005",
-          "price": 34.38,
-          "quantity": 1
-        },
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0033",
-      "reason": "Wrong color received",
-      "store_name": "BookNook",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": false,
       "decision": null,
       "items": [
@@ -746,35 +740,71 @@
     },
     {
       "id": "RO-0034",
-      "reason": "Wrong item received",
-      "store_name": "HomeEssentials",
+      "reason": "Damaged product",
+      "store_name": "GadgetStore",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
-        {
-          "name": "Bluetooth Speaker",
-          "id": "ITEM-012",
-          "price": 199.99,
-          "quantity": 3
-        },
         {
           "name": "Leather Wallet",
           "id": "ITEM-010",
           "price": 45,
           "quantity": 2
+        },
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
         }
       ]
     },
     {
       "id": "RO-0035",
-      "reason": "Incorrect size",
+      "reason": "Defective item",
       "store_name": "HomeEssentials",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        },
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0036",
+      "reason": "Wrong item received",
+      "store_name": "FashionFix",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
@@ -787,36 +817,12 @@
       ]
     },
     {
-      "id": "RO-0036",
-      "reason": "Defective item",
-      "store_name": "FootwearHub",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Bluetooth Speaker",
-          "id": "ITEM-012",
-          "price": 199.99,
-          "quantity": 3
-        },
-        {
-          "name": "Leather Wallet",
-          "id": "ITEM-010",
-          "price": 45,
-          "quantity": 2
-        }
-      ]
-    },
-    {
       "id": "RO-0037",
-      "reason": "Wrong item received",
-      "store_name": "TechWorld",
+      "reason": "Defective item",
+      "store_name": "GadgetStore",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": false,
       "decision": null,
       "items": [
@@ -836,48 +842,12 @@
     },
     {
       "id": "RO-0038",
-      "reason": "Damaged product",
-      "store_name": "TechWorld",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0039",
       "reason": "Product not as described",
-      "store_name": "TechWorld",
+      "store_name": "FashionFix",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0040",
-      "reason": "Late delivery",
-      "store_name": "BookNook",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
         {
@@ -889,15 +859,21 @@
       ]
     },
     {
-      "id": "RO-0041",
-      "reason": "Late delivery",
-      "store_name": "GadgetStore",
+      "id": "RO-0039",
+      "reason": "Defective item",
+      "store_name": "HomeEssentials",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
+      "amount": 1936,
+      "active": true,
       "decision": null,
       "items": [
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        },
         {
           "name": "Table Lamp",
           "id": "ITEM-005",
@@ -913,30 +889,12 @@
       ]
     },
     {
-      "id": "RO-0042",
-      "reason": "Product not as described",
-      "store_name": "GadgetStore",
+      "id": "RO-0040",
+      "reason": "Late delivery",
+      "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
-        }
-      ]
-    },
-    {
-      "id": "RO-0043",
-      "reason": "Damaged product",
-      "store_name": "FootwearHub",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
@@ -955,12 +913,84 @@
       ]
     },
     {
-      "id": "RO-0044",
+      "id": "RO-0041",
+      "reason": "Damaged product",
+      "store_name": "FootwearHub",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        },
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0042",
       "reason": "Product not as described",
       "store_name": "HomeEssentials",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0043",
+      "reason": "Damaged product",
+      "store_name": "FashionFix",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0044",
+      "reason": "Defective item",
+      "store_name": "FootwearHub",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
@@ -986,12 +1016,12 @@
     },
     {
       "id": "RO-0045",
-      "reason": "Defective item",
-      "store_name": "GadgetStore",
+      "reason": "Wrong color received",
+      "store_name": "FootwearHub",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
+      "amount": 1936,
+      "active": true,
       "decision": null,
       "items": [
         {
@@ -1010,11 +1040,29 @@
     },
     {
       "id": "RO-0046",
-      "reason": "Damaged product",
-      "store_name": "BookNook",
+      "reason": "Wrong item received",
+      "store_name": "FashionFix",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0047",
+      "reason": "Incorrect size",
+      "store_name": "HomeEssentials",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
@@ -1033,33 +1081,21 @@
       ]
     },
     {
-      "id": "RO-0047",
-      "reason": "Defective item",
-      "store_name": "HomeEssentials",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
-        }
-      ]
-    },
-    {
       "id": "RO-0048",
-      "reason": "Defective item",
-      "store_name": "GadgetStore",
+      "reason": "Wrong item received",
+      "store_name": "FashionFix",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
         {
           "name": "Running Shoes",
           "id": "ITEM-008",
@@ -1070,12 +1106,12 @@
     },
     {
       "id": "RO-0049",
-      "reason": "Defective item",
-      "store_name": "FootwearHub",
+      "reason": "Damaged product",
+      "store_name": "BookNook",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
         {
@@ -1088,54 +1124,12 @@
     },
     {
       "id": "RO-0050",
-      "reason": "Damaged product",
+      "reason": "Defective item",
       "store_name": "BookNook",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
-        }
-      ]
-    },
-    {
-      "id": "RO-0051",
-      "reason": "Late delivery",
-      "store_name": "FashionFix",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
-      "decision": null,
-      "items": [
-        {
-          "name": "Table Lamp",
-          "id": "ITEM-005",
-          "price": 34.38,
-          "quantity": 1
-        },
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0052",
-      "reason": "Incorrect size",
-      "store_name": "TechWorld",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
       "decision": null,
       "items": [
         {
@@ -1153,15 +1147,57 @@
       ]
     },
     {
-      "id": "RO-0053",
-      "reason": "Product not as described",
-      "store_name": "FootwearHub",
+      "id": "RO-0051",
+      "reason": "Late delivery",
+      "store_name": "BookNook",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Hardcover Novel",
+          "id": "ITEM-003",
+          "price": 22.5,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "RO-0052",
+      "reason": "Late delivery",
+      "store_name": "GadgetStore",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Hardcover Novel",
+          "id": "ITEM-003",
+          "price": 22.5,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "RO-0053",
+      "reason": "Wrong item received",
+      "store_name": "GadgetStore",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        },
         {
           "name": "Table Lamp",
           "id": "ITEM-005",
@@ -1178,14 +1214,20 @@
     },
     {
       "id": "RO-0054",
-      "reason": "Late delivery",
-      "store_name": "TechWorld",
+      "reason": "Damaged product",
+      "store_name": "HomeEssentials",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
         {
           "name": "Running Shoes",
           "id": "ITEM-008",
@@ -1196,35 +1238,41 @@
     },
     {
       "id": "RO-0055",
-      "reason": "Late delivery",
-      "store_name": "FootwearHub",
+      "reason": "Damaged product",
+      "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
-        {
-          "name": "Bluetooth Speaker",
-          "id": "ITEM-012",
-          "price": 199.99,
-          "quantity": 3
-        },
         {
           "name": "Leather Wallet",
           "id": "ITEM-010",
           "price": 45,
           "quantity": 2
+        },
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
         }
       ]
     },
     {
       "id": "RO-0056",
-      "reason": "Incorrect size",
-      "store_name": "BookNook",
+      "reason": "Wrong item received",
+      "store_name": "HomeEssentials",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": false,
       "decision": null,
       "items": [
@@ -1244,53 +1292,41 @@
     },
     {
       "id": "RO-0057",
-      "reason": "Product not as described",
-      "store_name": "TechWorld",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
-        }
-      ]
-    },
-    {
-      "id": "RO-0058",
       "reason": "Incorrect size",
       "store_name": "FootwearHub",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": false,
       "decision": null,
       "items": [
-        {
-          "name": "Bluetooth Speaker",
-          "id": "ITEM-012",
-          "price": 199.99,
-          "quantity": 3
-        },
         {
           "name": "Leather Wallet",
           "id": "ITEM-010",
           "price": 45,
           "quantity": 2
+        },
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
         }
       ]
     },
     {
-      "id": "RO-0059",
-      "reason": "Wrong item received",
-      "store_name": "FashionFix",
+      "id": "RO-0058",
+      "reason": "Wrong color received",
+      "store_name": "FootwearHub",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
@@ -1315,13 +1351,37 @@
       ]
     },
     {
-      "id": "RO-0060",
-      "reason": "Late delivery",
-      "store_name": "HomeEssentials",
+      "id": "RO-0059",
+      "reason": "Product not as described",
+      "store_name": "BookNook",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "ITEM-012",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "RO-0060",
+      "reason": "Wrong color received",
+      "store_name": "FootwearHub",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": true,
       "decision": null,
       "items": [
         {
@@ -1346,36 +1406,30 @@
     },
     {
       "id": "RO-0061",
-      "reason": "Incorrect size",
-      "store_name": "FootwearHub",
+      "reason": "Late delivery",
+      "store_name": "GadgetStore",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
         {
-          "name": "Bluetooth Speaker",
-          "id": "ITEM-012",
-          "price": 199.99,
-          "quantity": 3
-        },
-        {
-          "name": "Leather Wallet",
-          "id": "ITEM-010",
-          "price": 45,
-          "quantity": 2
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
         }
       ]
     },
     {
       "id": "RO-0062",
-      "reason": "Defective item",
-      "store_name": "FashionFix",
+      "reason": "Wrong item received",
+      "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
         {
@@ -1394,14 +1448,26 @@
     },
     {
       "id": "RO-0063",
-      "reason": "Incorrect size",
-      "store_name": "BookNook",
+      "reason": "Damaged product",
+      "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": false,
       "decision": null,
       "items": [
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        },
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
         {
           "name": "Running Shoes",
           "id": "ITEM-008",
@@ -1412,12 +1478,12 @@
     },
     {
       "id": "RO-0064",
-      "reason": "Wrong item received",
-      "store_name": "FashionFix",
+      "reason": "Incorrect size",
+      "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
+      "amount": 1936,
+      "active": true,
       "decision": null,
       "items": [
         {
@@ -1436,14 +1502,20 @@
     },
     {
       "id": "RO-0065",
-      "reason": "Damaged product",
-      "store_name": "FashionFix",
+      "reason": "Incorrect size",
+      "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
+      "amount": 1936,
+      "active": true,
       "decision": null,
       "items": [
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
         {
           "name": "Running Shoes",
           "id": "ITEM-008",
@@ -1455,13 +1527,25 @@
     {
       "id": "RO-0066",
       "reason": "Wrong item received",
-      "store_name": "FootwearHub",
+      "store_name": "HomeEssentials",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        },
+        {
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
         {
           "name": "Running Shoes",
           "id": "ITEM-008",
@@ -1473,76 +1557,124 @@
     {
       "id": "RO-0067",
       "reason": "Incorrect size",
-      "store_name": "FootwearHub",
+      "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
+      "amount": 1936,
+      "active": true,
       "decision": null,
       "items": [
         {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
+          "name": "Bluetooth Speaker",
+          "id": "ITEM-012",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
         }
       ]
     },
     {
       "id": "RO-0068",
-      "reason": "Late delivery",
-      "store_name": "HomeEssentials",
+      "reason": "Wrong item received",
+      "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
         {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
         }
       ]
     },
     {
       "id": "RO-0069",
-      "reason": "Wrong item received",
-      "store_name": "BookNook",
+      "reason": "Product not as described",
+      "store_name": "GadgetStore",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "ITEM-012",
+          "price": 199.99,
+          "quantity": 3
+        },
         {
           "name": "Leather Wallet",
           "id": "ITEM-010",
           "price": 45,
           "quantity": 2
-        },
-        {
-          "name": "Table Lamp",
-          "id": "ITEM-005",
-          "price": 34.38,
-          "quantity": 1
-        },
-        {
-          "name": "Running Shoes",
-          "id": "ITEM-008",
-          "price": 79.99,
-          "quantity": 10
         }
       ]
     },
     {
       "id": "RO-0070",
+      "reason": "Wrong item received",
+      "store_name": "FashionFix",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "ITEM-012",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Leather Wallet",
+          "id": "ITEM-010",
+          "price": 45,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "RO-0071",
       "reason": "Product not as described",
+      "store_name": "FashionFix",
+      "store_logo": "https://picsum.photos/200/300",
+      "store_url": "https://picsum.photos/",
+      "amount": 1936,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "RO-0072",
+      "reason": "Damaged product",
       "store_name": "FootwearHub",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
+      "amount": 1936,
       "active": true,
       "decision": null,
       "items": [
@@ -1563,60 +1695,30 @@
           "id": "ITEM-008",
           "price": 79.99,
           "quantity": 10
-        }
-      ]
-    },
-    {
-      "id": "RO-0071",
-      "reason": "Late delivery",
-      "store_name": "HomeEssentials",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
-        }
-      ]
-    },
-    {
-      "id": "RO-0072",
-      "reason": "Wrong color received",
-      "store_name": "TechWorld",
-      "store_logo": "https://picsum.photos/200/300",
-      "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": false,
-      "decision": null,
-      "items": [
-        {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
         }
       ]
     },
     {
       "id": "RO-0073",
       "reason": "Incorrect size",
-      "store_name": "FootwearHub",
+      "store_name": "TechWorld",
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
-      "amount": 1936.65,
-      "active": true,
+      "amount": 1936,
+      "active": false,
       "decision": null,
       "items": [
         {
-          "name": "Hardcover Novel",
-          "id": "ITEM-003",
-          "price": 22.5,
-          "quantity": 5
+          "name": "Table Lamp",
+          "id": "ITEM-005",
+          "price": 34.38,
+          "quantity": 1
+        },
+        {
+          "name": "Running Shoes",
+          "id": "ITEM-008",
+          "price": 79.99,
+          "quantity": 10
         }
       ]
     }
