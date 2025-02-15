@@ -20,3 +20,6 @@ export interface IRefundOrder {
   [REFUND_ORDER.DECISION]: TRefundDecision
   [REFUND_ORDER.ITEMS]: TRefundItem[];
 }
+
+export type TOrderUpdateStatusPayload = { [REFUND_ORDER.ID]: string, [REFUND_ORDER.ACTIVE]: boolean };
+export type TOrderUpdateDecisionPayload = { [REFUND_ORDER.ID]: string, [REFUND_ORDER.DECISION]: TRefundDecision };

@@ -15,7 +15,7 @@ const TableLinksCell = ({ href, className, text }: ITableLinksCellProps) => {
         "text-blue-600 hover:text-blue-800 underline transition-all",
         className
       )}
-      href={href}
+      href={href ?? "#"}
       target='_blank'
       rel='noopener noreferrer'
     >

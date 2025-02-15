@@ -13,7 +13,6 @@ type TColumnDef = IRefundOrder & {
   [REFUND_ORDER.ACTIONS]: React.ReactNode
 }
 
-
 export const refundTableColumns: ColumnDef<TColumnDef>[] = [
   {
     header: 'Order ID',

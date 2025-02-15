@@ -1,7 +1,13 @@
 import { STYLES } from '@/constants/styles'
 import { cn } from '@/lib/utils'
 import React from 'react'
-import TableSection from './_components/TableSection'
+import dynamic from 'next/dynamic'
+
+// To solve build error
+const TableSection = dynamic(
+  () => import('./_components/TableSection'),
+  { ssr: false }
+)
 
 const RefundOrders = () => {
   return (

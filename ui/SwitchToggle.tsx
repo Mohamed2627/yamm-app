@@ -3,7 +3,7 @@ import React from 'react'
 
 interface ISwitchToggleProps {
   isActive: boolean;
-  onChange: (event: React.FormEvent<HTMLInputElement>) => void;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 const SwitchToggle = ({ isActive, onChange }: ISwitchToggleProps) => {

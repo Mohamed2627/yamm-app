@@ -16,10 +16,12 @@ export const useGetRefundOrders = () => {
   } = useQuery({
     queryKey: ['refundOrders', searchParams],
     queryFn: () => getPaginatedRefundOrders(searchParams),
+    retry: 0,
     throwOnError: () => {
       toast.error("Failed to fetch refund orders")
       return false
     },
+
   })
 
   return { isLoading, error, refundOrders } as const

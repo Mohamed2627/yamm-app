@@ -56,7 +56,7 @@ const TableComponent = <T extends object>({
 
           <LoadingSpinner />
         ) :
-          data?.length === 0 ? (
+          data?.length === 0 || !data ? (
             <div className="text-center py-8 text-gray-500">
               No data available
             </div>
