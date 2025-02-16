@@ -7,8 +7,8 @@
       "store_logo": "https://picsum.photos/200/300",
       "store_url": "https://picsum.photos/",
       "amount": 1936,
-      "active": false,
-      "decision": "escalate",
+      "active": true,
+      "decision": "reject",
       "items": [
         {
           "name": "Running Shoes",
@@ -26,7 +26,7 @@
       "store_url": "https://picsum.photos/",
       "amount": 1936,
       "active": false,
-      "decision": "escalate",
+      "decision": "accept",
       "items": [
         {
           "name": "Bluetooth Speaker",

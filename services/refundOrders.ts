@@ -38,3 +38,12 @@ export const updateRefundOrderDecision = async (data: TOrderUpdateDecisionPayloa
   }
 }
 
+export const getRefundOrderById = async (orderId: string) => {
+  try {
+    const res = await axiosInstance.get(`/refundOrders/${orderId}`);
+    return res.data
+  } catch (error) {
+    throw new Error();
+  }
+}
+

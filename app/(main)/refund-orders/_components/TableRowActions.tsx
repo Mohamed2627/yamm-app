@@ -41,8 +41,9 @@ const TableRowActions = ({
     })
   }, [orderId, updateOrderStatus]);
 
-  const navigateToOrder = () => {
-  };
+  const navigateToOrder = useCallback(() => {
+    router.push(`/refund-orders/${orderId}`);
+  }, [orderId, router]);
 
   return (
     <div className="flex items-center gap-4">
